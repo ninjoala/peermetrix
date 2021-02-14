@@ -2,6 +2,12 @@ Hello, my name is Nicholas Dobos, and welcome to my PeerMetrix interview project
 
 I hope you find that I have created a satisfactory API. 
 
+First things first, I gotta go over some details you can use to get this up and running:
+
+You're going to have to have a sql server instance, and add in your connection string. Then you will need to run the fixedrolename migration. Once that is done, 
+you will need to add in some dummy data, starting with Roles. I created the three roles, User, Moderator, and Administrator that way. The reason you need to start
+with roles is because it's the only ones without required foreign keys. Everything should speak for itself afterwards.
+
 I'll add a couple of notes here:
 
 Firstly, I don't really know how identity generally interacts with WebApis. It is my understanding that the API will be exposed to a
