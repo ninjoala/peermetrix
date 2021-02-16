@@ -1,8 +1,8 @@
-Hello, my name is Nicholas Dobos, and welcome to my PeerMetrix interview project.
+Hello, my name is Nicholas Dobos, and this  my PeerMetrix interview project.
 
 I hope you find that I have created a satisfactory API. 
 
-First things first, I gotta go over some details you can use to get this up and running:
+First things first, I am going to go over some details you can use to get this up and running:
 
 You're going to have to have a sql server instance, and add in your connection string. Then you will need to run the fixedrolename migration. Once that is done, 
 you will need to add in some dummy data, starting with Roles. I created the three roles, User, Moderator, and Administrator that way. The reason you need to start
@@ -22,6 +22,7 @@ I might have missed some of my resources that I used, especially towards the end
 I hope that it doesn't seem like I did way too much for this, but this really felt like the best format to present the info. 
 
 That being said, thank you for the opportunity.
+
 
 Hope to hear from you soon,
 
